@@ -244,7 +244,8 @@
 	
     <!-- org.eclipse.datatools.* -->
 	<target name="Javadoc">
-
+		<echo message="src dir: ${src.dir}"/>
+		<echo message="eclipse.home: ${eclipse.home}"/>
         <javadoc sourcepathref="path.fileset" access="public" author="true" destdir="./html/reference/api/" defaultexcludes="yes"
 		nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" 
 		notree="false" source="1.5" splitindex="false" use="true" version="true" useexternalfile="true" 
