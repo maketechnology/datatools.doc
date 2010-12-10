@@ -6,6 +6,7 @@
 	<property name="bundle-name" value="org.eclipse.datatools.doc.isv"/>
 	<property name="src.dir" value="${buildDirectory}/plugins" />
 	<property name="bin.dir" value="@dot"/>
+	<property name="output.dir" value="./html/reference/api/"/>
 	
 	<property file="build.properties"/>
 
