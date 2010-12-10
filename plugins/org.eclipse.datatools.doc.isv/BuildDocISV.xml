@@ -5,11 +5,11 @@
 	
 	<property name="bundle-name" value="org.eclipse.datatools.doc.isv"/>
 	<property name="src.dir" value="${buildDirectory}/plugins" />
-	<property name="eclipse.home" value="${baseLocation}"/>
+	
 	<property file="build.properties"/>
 
 	<path id="classpath">
-		<fileset dir="${eclipse.home}/plugins">
+		<fileset dir="${baseLocation}/plugins">
 			<include name="**/*.jar"/>
 			<exclude name="*.source_*.jar"/>
 		</fileset>
