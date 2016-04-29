@@ -8,6 +8,7 @@ Bundle-Vendor: %ProviderName
 Bundle-Localization: plugin
 Require-Bundle: org.eclipse.help;visibility:=reexport,
  org.eclipse.core.runtime,
- org.eclipse.ui
+ org.eclipse.ui;resolution:=optional,
+ org.eclipse.rap.ui;bundle-version="3.0.2";resolution:=optional
 Export-Package: org.eclipse.datatools.help
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
